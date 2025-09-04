@@ -1,16 +1,17 @@
 {
-  "name": "Your Dad’s Business",
-  "email": "hello@example.com",
-  "phone": "+41 22 123 45 67",
-  "address": "Example Street 10, 1200 Geneva",
+  "name": "Aurypet Quality Shop",
+  "phone": "+41 91 825 07 07",
+  "address": "Viale Portone 1, 6500 Bellinzona, Svizzera",
+  "Instagram": "https://www.instagram.com/aurypet/",
   "hours": {
-    "monday": "09:00–18:00",
-    "tuesday": "09:00–18:00",
-    "wednesday": "09:00–18:00",
-    "thursday": "09:00–18:00",
-    "friday": "09:00–18:00",
-    "saturday": "10:00–14:00",
-    "sunday": "Closed"
+    "monday": "14:00–18:00",
+    "tuesday": "09:30–18:30",
+    "wednesday": "09:30–18:30",
+    "thursday": "09:30–18:30",
+    "friday": "09:30–18:30",
+    "saturday": "09:00–18:00",
+    "sunday": "Closed",
+    "Chiusi per pranzo": "11:30-14:00"
   },
-  "services": ["Sales", "Repairs", "Delivery"]
+  "services": ["Vendita in negozio", "Reti di protezione per gatti", "Manutenzione acquari", "Consegne a domicilio", "Consulenza", "Richieste speciali", "Prodotti BARF"]
 }
