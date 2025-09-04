@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support Chat</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fuse.js for fuzzy search (tiny, MIT) -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <!-- EmailJS (free tier) for lead emails) -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <div id="app" class="chat-root" role="dialog" aria-modal="true" aria-label="Customer support chat">
+    <header class="chat-header">
+      <div class="chat-title">Support</div>
+      <button id="closeBtn" class="icon-btn" aria-label="Close chat" title="Close">×</button>
+    </header>
+
+    <div id="log" class="chat-log" aria-live="polite"></div>
+
+    <form id="chatForm" class="chat-form" autocomplete="off">
+      <input id="msg" class="chat-input" placeholder="Ask a question… (hours, prices, returns)" aria-label="Type your message" />
+      <button class="send-btn" aria-label="Send">Send</button>
+    </form>
+
+    <footer class="chat-footer">
+      <small>We keep it simple: no tracking, and we only collect contact details if you ask for human help.</small>
+    </footer>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+  { "q": "What are your opening hours?", "a": "We are open Monday–Friday 09:00–18:00 and Saturday 10:00–14:00.", "tag": "hours" },
+  { "q": "Where are you located?", "a": "We are at Example Street 10, 1200 Geneva. Parking available behind the shop.", "tag": "address" },
+  { "q": "How can I contact you?", "a": "Call +41 22 123 45 67 or email hello@example.com.", "tag": "contact" },
+  { "q": "Do you offer delivery?", "a": "Yes, we deliver in Canton Geneva within 24–48 hours.", "tag": "delivery" },
+  { "q": "What is your return policy?", "a": "Returns accepted within 14 days with receipt. Items must be unused and in original packaging.", "tag": "returns" },
+  { "q": "Do you do repairs?", "a": "Yes. Bring the item or call us for a quote. Typical diagnostics in 1–2 business days.", "tag": "repairs" }
+]
