@@ -1,15 +1,74 @@
 [
-  { "q": "Quali sono gli orari di apertura? orari apertura pausa pranzo lunedi sabato", "a": "09:30–18:30 con pausa 11:30–14:00. Lunedì mattina chiuso. Sabato 09:00–12:30 e 14:00–18:00.", "tag": "orari" },
-  { "q": "Dove siete? indirizzo come arrivare sede", "a": "Viale Portone 1, 6500 Bellinzona (TI), Svizzera.", "tag": "indirizzo" },
-  { "q": "Contatti telefono numero cellulare email", "a": "Telefono 091 825 07 07 · Mobile 079 866 28 19.", "tag": "contatti" },
-  { "q": "Fate consegne? spedizioni Svizzera", "a": "Sì, organizziamo consegne e spedizioni in tutta la Svizzera.", "tag": "consegne" },
-  { "q": "Reti per gatti installazione preventivo montaggio balcone", "a": "Sì: sopralluogo, valutazione fattibilità, preventivo, fornitura e posa. Nella maggior parte dei casi senza forare.", "tag": "reti-gatti" },
-  { "q": "Manutenzione acquari consulenza assistenza", "a": "Sì: consulenza, sopralluogo, manutenzione straordinaria o periodica e fornitura materiali/ricambi.", "tag": "acquari" },
-  { "q": "Dieta BARF cani gatti surgelata", "a": "Disponibile dieta BARF pronta e surgelata per cani e gatti.", "tag": "barf" },
-  { "q": "Prodotti su ordinazione cataloghi non disponibile", "a": "Possiamo ordinare dai cataloghi (oltre diecimila articoli).", "tag": "ordini" },
-  { "q": "Posso entrare con il mio animale? provare pettorina collare", "a": "Certo: animali benvenuti; è possibile provare collari, pettorine e abiti.", "tag": "in-negozio" },
-  { "q": "Chi siete? chi è il titolare esperienza", "a": "Stefano: oltre 30 anni di esperienza; negozio aperto nel 2015 a Bellinzona.", "tag": "chi-siamo" },
-  { "q": "Consulenza personalizzata", "a": "Sì, ti consigliamo la soluzione migliore per il tuo animale, non solo il prodotto.", "tag": "consulenza" },
-  { "q": "Cataloghi prodotti alimenti pdf", "a": "Sul sito trovi cataloghi di accessori e alimenti per cani, gatti, roditori, pesci e rettili.", "tag": "cataloghi" }
+  {
+    "q": "Orari orari di apertura orario oggi quando aprite quando chiudete apertura sabato pausa pranzo lunedi mattina chiuso",
+    "a": "09:30–18:30 con pausa 11:30–14:00. Lunedì mattina chiuso. Sabato 09:00–12:30 e 14:00–18:00.",
+    "tag": "orari"
+  },
+  {
+    "q": "Dove siete indirizzo come arrivare sede mappa posizione negozio",
+    "a": "Viale Portone 1, 6500 Bellinzona (TI), Svizzera.",
+    "tag": "indirizzo"
+  },
+  {
+    "q": "Contatti telefono cellulare numero email contattarvi chiamare scrivere",
+    "a": "Telefono 091 825 07 07 · Mobile 079 866 28 19.",
+    "tag": "contatti"
+  },
+  {
+    "q": "Consegna spedizione spedite spedizioni svizzera ticino inviate pacchi a domicilio corriere tempi costo",
+    "a": "Sì, effettuiamo consegne e spedizioni in tutta la Svizzera. Per tempi e costi contattaci.",
+    "tag": "consegne"
+  },
+  {
+    "q": "Reti per gatti rete balcone terrazzo finestra protezione sicurezza montaggio installazione senza forare preventivo sopralluogo",
+    "a": "Installiamo reti di protezione per gatti: sopralluogo, verifica fattibilità, preventivo, fornitura e posa. Nella maggior parte dei casi senza forare.",
+    "tag": "reti-gatti"
+  },
+  {
+    "q": "Acquari manutenzione assistenza consulenza pulizia installazione sopralluogo periodica straordinaria ricambi materiali",
+    "a": "Offriamo consulenza e manutenzione acquari, sia straordinaria sia periodica, con sopralluogo e fornitura materiali/ricambi.",
+    "tag": "acquari"
+  },
+  {
+    "q": "BARF dieta barf alimentazione naturale cruda cani gatti surgelata",
+    "a": "Disponiamo di dieta BARF pronta e surgelata per cani e gatti.",
+    "tag": "barf"
+  },
+  {
+    "q": "Prodotti su ordinazione cataloghi non disponibile ordine richiesta articolo marche disponibilita",
+    "a": "Possiamo ordinare dai nostri cataloghi (migliaia di articoli). Se non trovi un prodotto chiedi e lo procuriamo.",
+    "tag": "ordini"
+  },
+  {
+    "q": "Cataloghi prodotti alimenti pdf marche accessori cani gatti roditori pesci rettili",
+    "a": "Sul sito trovi i cataloghi in PDF di accessori e alimenti per cani, gatti, roditori, pesci e rettili.",
+    "tag": "cataloghi"
+  },
+  {
+    "q": "Animali benvenuti posso entrare con cane gatto provare pettorina collare abiti misure taglie",
+    "a": "Gli animali sono benvenuti in negozio: puoi provare collari, pettorine e abiti per trovare la misura giusta.",
+    "tag": "in-negozio"
+  },
+  {
+    "q": "Consulenza consigli personalizzati consiglio quale prodotto soluzione problema",
+    "a": "Facciamo consulenze personalizzate: ti aiutiamo a scegliere la soluzione migliore per il tuo animale.",
+    "tag": "consulenza"
+  },
+  {
+    "q": "Preventivo preventivi costo prezzi rete gatti acquario servizio quanto costa",
+    "a": "Facciamo preventivi su richiesta per reti di protezione e servizi sugli acquari. Scrivici o chiamaci.",
+    "tag": "preventivi"
+  },
+  {
+    "q": "Chi siete chi è il titolare chi siamo esperienza storia negozio",
+    "a": "Aurypet è gestito da Stefano, oltre 30 anni di esperienza. Negozio aperto dal 2015 a Bellinzona.",
+    "tag": "chi-siamo"
+  },
+  {
+    "q": "Appuntamento prenotazione passare in negozio fissare orario consulenza",
+    "a": "Puoi passare liberamente negli orari di apertura oppure contattarci per fissare un appuntamento.",
+    "tag": "appuntamenti"
+  }
 ]
+
 
