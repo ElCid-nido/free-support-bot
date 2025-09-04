@@ -1,5 +1,4 @@
 (() => {
-  // Detect the script URL to infer chat.html if not provided
   const currentScript = document.currentScript || (function() {
     const scripts = document.getElementsByTagName('script');
     return scripts[scripts.length - 1];
@@ -14,7 +13,7 @@
     } catch (_) {}
   }
   if (!CHAT_URL) {
-    console.error('[free-support-bot] Missing chat URL. Pass data-fsb-url on the script tag.');
+    console.error('[free-support-bot] URL della chat mancante. Passa data-fsb-url nello script.');
     return;
   }
 
@@ -31,9 +30,9 @@
   const root = document.createElement('div');
   root.id = 'fsb-root';
   root.innerHTML = `
-    <button id="fsb-btn" aria-label="Open chat">Chat</button>
-    <div id="fsb-panel" role="dialog" aria-label="Customer support">
-      <iframe id="fsb-iframe" title="Customer support chat" src="${CHAT_URL}"></iframe>
+    <button id="fsb-btn" aria-label="Apri chat">Chat</button>
+    <div id="fsb-panel" role="dialog" aria-label="Assistenza clienti">
+      <iframe id="fsb-iframe" title="Chat assistenza" src="${CHAT_URL}"></iframe>
     </div>`;
   document.body.appendChild(root);
 
@@ -43,11 +42,9 @@
   const toggle = () => {
     const open = panel.style.display !== 'none';
     panel.style.display = open ? 'none' : 'block';
-    btn.textContent = open ? 'Chat' : 'Close';
+    btn.textContent = open ? 'Chat' : 'Chiudi';
   };
 
   btn.addEventListener('click', toggle);
-  window.addEventListener('message', (e) => {
-    if (e.data === 'fsb.close') toggle();
-  });
+  window.addEventListener('message', (e) => { if (e.data === 'fsb.close') toggle(); });
 })();

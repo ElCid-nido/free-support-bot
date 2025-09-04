@@ -19,6 +19,4 @@
 .form{display:grid;gap:8px;margin-top:8px}
 .form input,.form textarea{padding:8px 10px;border:1px solid var(--line);border-radius:8px}
 .form button{padding:10px 12px;border:1px solid var(--brand);background:var(--brand);color:#fff;border-radius:10px;cursor:pointer}
-
-/* scrollbar niceties */
 .chat-log::-webkit-scrollbar{width:10px} .chat-log::-webkit-scrollbar-thumb{background:#ddd;border-radius:10px}

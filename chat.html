@@ -1,34 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Support Chat</title>
+  <title>Assistenza</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Fuse.js for fuzzy search (tiny, MIT) -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-  <!-- EmailJS (free tier) for lead emails) -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
 <body>
-  <div id="app" class="chat-root" role="dialog" aria-modal="true" aria-label="Customer support chat">
+  <div id="app" class="chat-root" role="dialog" aria-modal="true" aria-label="Chat assistenza clienti">
     <header class="chat-header">
-      <div class="chat-title">Support</div>
-      <button id="closeBtn" class="icon-btn" aria-label="Close chat" title="Close">×</button>
+      <div class="chat-title">Assistenza</div>
+      <button id="closeBtn" class="icon-btn" aria-label="Chiudi chat" title="Chiudi">×</button>
     </header>
-
     <div id="log" class="chat-log" aria-live="polite"></div>
-
     <form id="chatForm" class="chat-form" autocomplete="off">
-      <input id="msg" class="chat-input" placeholder="Ask a question… (hours, prices, returns)" aria-label="Inserisci il tuo messaggio" />
-      <button class="send-btn" aria-label="Send">Send</button>
+      <input id="msg" class="chat-input" placeholder="Fai una domanda… (orari, prezzi, resi)" aria-label="Scrivi il messaggio" />
+      <button class="send-btn" aria-label="Invia">Invia</button>
     </form>
-
     <footer class="chat-footer">
-      <small>We keep it simple: no tracking, and we only collect contact details if you ask for human help.</small>
+      <small>Nessun tracciamento. Raccogliamo nome ed email solo se chiedi di essere contattato.</small>
     </footer>
   </div>
-
   <script src="chat.js"></script>
 </body>
 </html>
