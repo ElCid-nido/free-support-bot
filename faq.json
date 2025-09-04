@@ -1,8 +1,15 @@
 [
-  { "q": "What are your opening hours?", "a": "We are open Monday–Friday 09:00–18:00 and Saturday 10:00–14:00.", "tag": "hours" },
-  { "q": "Where are you located?", "a": "We are at Example Street 10, 1200 Geneva. Parking available behind the shop.", "tag": "address" },
-  { "q": "How can I contact you?", "a": "Call +41 22 123 45 67 or email hello@example.com.", "tag": "contact" },
-  { "q": "Do you offer delivery?", "a": "Yes, we deliver in Canton Geneva within 24–48 hours.", "tag": "delivery" },
-  { "q": "What is your return policy?", "a": "Returns accepted within 14 days with receipt. Items must be unused and in original packaging.", "tag": "returns" },
-  { "q": "Do you do repairs?", "a": "Yes. Bring the item or call us for a quote. Typical diagnostics in 1–2 business days.", "tag": "repairs" }
+  { "q": "Quali sono gli orari di apertura? orari apertura pausa pranzo lunedi sabato", "a": "09:30–18:30 con pausa 11:30–14:00. Lunedì mattina chiuso. Sabato 09:00–12:30 e 14:00–18:00.", "tag": "orari" },
+  { "q": "Dove siete? indirizzo come arrivare sede", "a": "Viale Portone 1, 6500 Bellinzona (TI), Svizzera.", "tag": "indirizzo" },
+  { "q": "Contatti telefono numero cellulare email", "a": "Telefono 091 825 07 07 · Mobile 079 866 28 19.", "tag": "contatti" },
+  { "q": "Fate consegne? spedizioni Svizzera", "a": "Sì, organizziamo consegne e spedizioni in tutta la Svizzera.", "tag": "consegne" },
+  { "q": "Reti per gatti installazione preventivo montaggio balcone", "a": "Sì: sopralluogo, valutazione fattibilità, preventivo, fornitura e posa. Nella maggior parte dei casi senza forare.", "tag": "reti-gatti" },
+  { "q": "Manutenzione acquari consulenza assistenza", "a": "Sì: consulenza, sopralluogo, manutenzione straordinaria o periodica e fornitura materiali/ricambi.", "tag": "acquari" },
+  { "q": "Dieta BARF cani gatti surgelata", "a": "Disponibile dieta BARF pronta e surgelata per cani e gatti.", "tag": "barf" },
+  { "q": "Prodotti su ordinazione cataloghi non disponibile", "a": "Possiamo ordinare dai cataloghi (oltre diecimila articoli).", "tag": "ordini" },
+  { "q": "Posso entrare con il mio animale? provare pettorina collare", "a": "Certo: animali benvenuti; è possibile provare collari, pettorine e abiti.", "tag": "in-negozio" },
+  { "q": "Chi siete? chi è il titolare esperienza", "a": "Stefano: oltre 30 anni di esperienza; negozio aperto nel 2015 a Bellinzona.", "tag": "chi-siamo" },
+  { "q": "Consulenza personalizzata", "a": "Sì, ti consigliamo la soluzione migliore per il tuo animale, non solo il prodotto.", "tag": "consulenza" },
+  { "q": "Cataloghi prodotti alimenti pdf", "a": "Sul sito trovi cataloghi di accessori e alimenti per cani, gatti, roditori, pesci e rettili.", "tag": "cataloghi" }
 ]
+
