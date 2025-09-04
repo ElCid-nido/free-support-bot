@@ -5,9 +5,9 @@
   const form = $('#chatForm');
   const closeBtn = $('#closeBtn');
 
-  const EMAILJS_PUBLIC_KEY = 'REPLACE_ME_PUBLIC_KEY';
-  const EMAILJS_SERVICE_ID = 'REPLACE_ME_SERVICE_ID';
-  const EMAILJS_TEMPLATE_ID = 'REPLACE_ME_TEMPLATE_ID';
+  const EMAILJS_PUBLIC_KEY = '6gIhjxivvS7THJVuBY';
+  const EMAILJS_SERVICE_ID = 'service_qvrbcr8';
+  const EMAILJS_TEMPLATE_ID = 'template_s2cnccm';
 
   if (window.emailjs && EMAILJS_PUBLIC_KEY.startsWith('REPLACE_ME') === false) {
     emailjs.init(EMAILJS_PUBLIC_KEY);
